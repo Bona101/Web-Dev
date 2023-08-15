@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="wrapper">
+        <h2 class="Survey">Survey Form</h2>
+        <div class="form-wrapper">
+          <p class="center">Let us know how we can improve freeCodeCamp</p>
+          <form class="form" action="">
+            <div class="key">
+              <label for="">* Name: </label>
+
+              <p>* Email:</p>
+              <p>* Age:</p>
+
+              <p>Which option best describes your current role?</p>
+
+              <p>
+                How likely is it that you would recommend freeCodeCamp to a
+                friend?
+              </p>
+
+              <p>What do you like most in FCC?</p>
+
+              <p>
+                Things that should be improved in the future (Check all that
+                apply):
+              </p>
+            </div>
+            <div class="value">
+              <input class="input" type="text" placeholder="Enter your name" />
+              <input
+                class="input"
+                type="email"
+                placeholder="Enter your Email"
+              />
+              <input class="input" type="number" placeholder="Age" />
+              <select class="input students" name="attendants" id="attendants">
+                <option value="students">Students</option>
+                <option value="tutorial">Tutorial Staff</option>
+                <option value="non-tutorial">Non-Tutorial Staff</option>
+              </select>
+
+              <div class="input radio">
+                <label for="definitely"
+                  ><input type="radio" name="how-likely" id="definitely" />
+                  Definitely</label
+                ><br />
+                <label for="maybe"
+                  ><input type="radio" name="how-likely" id="maybe" />
+                  Maybe</label
+                ><br />
+                <label for="nope"
+                  ><input type="radio" name="how-likely" id="nope" />
+                  Nope</label
+                >
+              </div>
+
+              <select class="input select" name="attendants" id="attendants">
+                <option disabled selected>Select</option>
+                <option value="F">F</option>
+                <option value="C">C</option>
+                <option value="CC">CC</option></select
+              ><br />
+              <div class="input FCC">
+                <label for="Front-end"
+                  ><input type="checkbox" id="Front-end" />Front-end
+                  Projects</label
+                ><br />
+                <label for="Back-end"
+                  ><input type="checkbox" id="Back-end" />Back-end
+                  Projects</label
+                ><br />
+                <label for="Datav"
+                  ><input type="checkbox" id="Datav" />Data Visualization</label
+                ><br />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
