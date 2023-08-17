@@ -9,7 +9,7 @@ body {
 
 :root {
     --heading-size: 5rem;
-    --heading-width: 
+    /* --heading-width:  */
 }
 
 .wise {
@@ -294,14 +294,14 @@ body {
     position: relative ;
 }
 
-.form-2-2 {
+/* .form-2-2 { */
     /* margin-top: 10px; */
     /* justify-self: flex-end; */
     /* margin-left: 30px; */
     /* text-align: right; */
     
     /* position: relative; */
-}
+/* } */
 
 .form-2-1 {
     margin-left: -22px;
