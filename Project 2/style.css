@@ -169,7 +169,7 @@ body {
 
 
 
-.but {
+/* .but {
     background-color: rgb(163, 241, 117);
     border-radius: 30px;
     padding: 14px;
@@ -177,7 +177,7 @@ body {
     width: 200px;
     font-weight: 500;
     font-family: Georgia;
-}
+} */
 
 .but:hover{
     background-color: rgb(137, 230, 27);
