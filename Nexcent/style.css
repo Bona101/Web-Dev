@@ -351,24 +351,8 @@ body {
     }
 }
 
-@media (max-width: 785px){
-    .section-5-2 {
-            /* padding-left: 7.5%;
-            padding-right: 5%; */
-        }
-}
-
-@media (max-width: 650px){
-    .section-5-2 {
-            /* padding-left: 0%; */
-            /* padding-right: 10%; */
-        }
-}
 
 @media (max-width: 600px){
-    /* body {
-        width: 100%;
-    } */
     
     .se-5-1 {
         flex-wrap: wrap;
