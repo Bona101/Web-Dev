@@ -273,7 +273,7 @@ body {
     width: 400px;
     height:130px;
     column-gap: 50px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .component {
