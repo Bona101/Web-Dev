@@ -16,7 +16,24 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 3% 5% 3% 5%;
+    padding: 5% 5% 0% 5%;
+    align-items: baseline;
+}
+
+.butt-project {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.butt {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    /* align-self: center; */
+    font-weight: 700;
 }
 
 .white-font {
@@ -24,11 +41,13 @@ body {
 }
 
 .gen {
-    padding-right: 6%;
+    font-weight: 500;
 }
+
 
 .project {
     color: #0A72AD;
+    font-size: 24px;
 }
 
 .about {
@@ -41,7 +60,7 @@ body {
 
 .we-provide {
     width: 50%;
-    padding: 3% 5% 3% 5%;
+    padding: 0% 5% 5% 5%;
     /* z-index: -1; */
 }
 
@@ -51,26 +70,29 @@ body {
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
+    padding-bottom: 50px;
 }
 
 .discover {
     background: linear-gradient(97.65deg, #60BBEE 0.33%, #0A72AD 93.35%);
-    box-shadow : 0px 10px 15px 0px #01739933;
+    box-shadow: 0px 10px 15px 0px #01739933;
     width: 196px;
     height: 64px;
     font-weight: 600;
     font-size: 16px;
     color: white;
+    border: none;
 }
 
 
 .head-foot {
     display: flex;
     justify-content: space-between;
+    /* align-items: stretch; */
     gap: 10%;
     padding-left: 5%;
     /* margin-top: -171px; */
-    z-index: 1;
+    /* z-index: 1; */
     position: absolute;
     bottom: 0;
 }
@@ -78,6 +100,11 @@ body {
 .head-nums {
     display: flex;
     gap: 15%;
+    width: 100%;
+    align-self: top;
+    /* background-color: red; */
+    /* padding-top: -100%; */
+    margin-top: -36px;
 }
 
 .head-num {
@@ -88,20 +115,24 @@ body {
 
 .h-num {
     display: flex;
-    margin-bottom: -16px;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
     margin-bottom: -45px;
+    /* background-color: blue; */
+    height: fit-content;
 }
+
 
 .head-plus {
     color: #2387C0;
+    /* background-color: red; */
 }
 
 .head-blue-foot {
     display: flex;
-    background: linear-gradient(97.73deg, #399FD8 -6.96%, #0775B4 23.5%, #003756 92.79%);       gap: 5%;
+    background: linear-gradient(97.73deg, #399FD8 -6.96%, #0775B4 23.5%, #003756 92.79%);
+    gap: 5%;
     align-items: center;
     padding: 0% 3% 0% 3%;
 }
@@ -111,7 +142,6 @@ body {
     font-weight: 500;
     /* line-height: 40px; */
     /* padding-bottom: 10px; */
-    background-color: red;
 }
 
 .head-foot-project {
@@ -119,7 +149,6 @@ body {
     font-weight: 600;
     /* margin-bottom: 40px; */
     /* line-height: 0px; */
-    background-color: red;
 }
 
 .flex {
@@ -135,8 +164,7 @@ body {
     font-weight: 700;
 }
 
-.years {
-}
+.years {}
 
 .vec-1 {
     position: relative;
@@ -156,4 +184,463 @@ body {
     bottom: 0;
     width: 45%;
     /* height: 0%; */
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5% 0% 5%;
+    column-gap: 30px;
+}
+
+@media (max-width: 1000px){
+    .section-2 {
+        flex-wrap: wrap;
+    }
+}
+
+.section-3 {
+    background-color: #F6F6F6CC;
+    padding: 5% 5% 0% 5%;
+}
+
+.s-3-top-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.excel-services {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 69px;
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+    width: 40%;
+    color: #242527;
+}
+
+.check-out {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #C4C4C4;
+}
+
+.s-3-pics {
+    display: flex;
+    /* width: fit-content; */
+    justify-content: space-between;
+}
+
+.s-3-piks {
+    width: 30%;
+}
+
+.s-3-pic {
+    width: 100%;
+}
+
+.pic-head {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #242527;
+}
+
+.sub-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #C4C4C4;
+}
+
+.section-4 {
+    padding: 5% 5% 0% 5%;
+}
+
+.rectangle {
+    background: linear-gradient(90deg, #60BBEE -2.22%, #2387C0 67.22%);
+    width: 90px;
+    height: 9px;
+}
+
+.s-4-pics {
+    flex-wrap: wrap;
+    gap: 50px;
+    /* justify-content: ; */
+}
+
+.s-4-piks {
+    width: 22%;
+}
+
+@media (max-width: 1425px) {
+    .s-4-piks {
+            width: 25%;
+        }
+}
+
+.s-4-pic {
+    background-color: #2387C0;
+    padding: 15px;
+    /* box-shadow: 10px 10px 10px 10px #2387C04D; */
+    /* border: 10px solid #2387C0; */
+    overflow: visible;
+    /* margin: ; */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: 2409px;
+    left: 762px;
+}
+
+.pic-back {
+    background-color: #2387C04D;
+    padding: 10px 10px 6px 10px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 5% 5% 0% 5%;
+    column-gap: 200px;
+}
+
+.pics-div {
+    width: 400px;
+    position: relative;
+}
+
+.scraper {
+    width: 100%;
+}
+
+.profile {
+    background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
+    box-shadow: 0px 10px 15px 0px #9797971F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 274px;
+    height: 290px;
+    position: absolute;
+    bottom: 78px;
+    right: -127px;
+    /* padding: 25px 30px 25px 30px; */
+}
+
+.woman {
+    width: 100px;
+    height: 100px;
+}
+
+.diane-russell {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.more-than-20 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 200px;
+    padding-top: -10px;
+}
+
+.text-div {
+    width: 40%;
+}
+
+.meet {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 69px;
+    /* width: 40%; */
+    color: #242527;
+}
+
+.all-teams {
+    /* width: 50%; */
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #C4C4C4;
+}
+
+.buttons {
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.how {
+    display: flex;
+    gap: 10px;
+    background-color: red;
+    /* height: 50px;
+    width: 140px; */
+    align-items: center;
+}
+
+.how-it-works {
+    text-decoration: none;
+    color: #242527;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.arrow {
+    width: 18px;
+}
+
+.see-all-team {
+        background-color: #0A72AD;
+        box-shadow: 0px 10px 15px 0px #01739933;
+        width: 181px;
+        height: 64px;
+        font-weight: 600;
+        font-size: 16px;
+        /* padding: 20px 40px 20px 40px; */
+        color: white;
+        border: none;
+}
+
+.section-6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5% 0% 5%;
+}
+
+.s-6-text-div {
+    width: 45%;
+}
+
+.another-building {
+    width: 45%;
+}
+
+.section-7 {
+    padding: 5% 5% 0% 5%;
+}
+
+.head-pic {
+    display: flex;
+    gap: 10px;
+}
+
+.pic-date {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    row-gap: 0px;
+}
+
+.pic-num {
+    font-size: 28px;
+    font-weight: 600;
+    color: #242527;
+    /* background-color: red; */
+    margin: 0;
+    margin-top: 6px;
+    padding: 0;
+    line-height: 36px;
+    height: fit-content;
+}
+
+.pic-month {
+    font-size: 14px;
+    font-weight: 600;
+    color: #242527;
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+    line-height: 21px;
+    height: fit-content;
+}
+
+.pic-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.sb2 {
+    font-weight: 400;
+}
+
+.read-more {
+    color: #0A72AD;
+}
+
+.section-8 {
+    padding: 5% 5% 5% 5%;
+}
+
+.builds {
+    width: 23%;
+}
+
+.section-10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);;
+    box-shadow: 0px 10px 15px 0px #00000014;
+    padding: 5%;
+}
+
+.s-10-pics {
+    position: relative;
+    width:fit-content;
+    height: fit-content;
+}
+
+.white-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 263px;
+    height: 171px;
+    position: absolute;
+    bottom: -60px;
+    right: -131.5px;
+}
+
+.quote {
+    background-color: white;
+    border-radius: 50%;
+    padding: 31px;
+    box-shadow: 0px 10px 15px 0px #2387C026;
+    position: relative;
+    top: -42px;
+    overflow: visible;
+}
+
+.molen {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    margin: 0;
+    margin-top: -30px;
+}
+
+.molen-text {
+    width: 85%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #939393;
+}
+
+.s-10-text {
+    width: 40%;
+}
+
+.what-we {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #fff;
+}
+
+.we-are-to {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #C4C4C4;
+}
+
+.arrows {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.right-arrow {
+    background-color: #0A72AD;
+    /* width: 25px;
+    height: 25px; */
+    padding: 15px;
+}
+
+.footer {
+    background: linear-gradient(168.84deg, #aaaaaa 4.14%, #222222 44.22%);
+    box-shadow: 0px 10px 15px 0px #9797971F;
+    color: white;
+    display: flex;
+    gap: 10%;
+    padding: 350px 5% 5% 5%;
+}
+
+.footer-1 {
+    width:50%;
+}
+
+
+.google {
+    width: 15px;
+    border-radius: 50%;
+}
+
+.icons {
+    display: flex;
+    gap: 7px;
+}
+
+.icon-background {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #193241;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.comp-more-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+}
+
+.gen-pro {
+    font-weight: 600;
+    line-height: 24px;
+    font-family: Poppins;
+}
+
+.gen-pro-text {
+    line-height: 28px;
+}
+
+.company {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+.section-10 {
+    width: 80%;
+    position: relative;
+    left: 5%;
+    top: 300px;
+}
+
+.man {
+    width: 100%;
 }
