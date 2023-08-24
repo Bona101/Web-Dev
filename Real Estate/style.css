@@ -88,14 +88,23 @@ body {
 .head-foot {
     display: flex;
     justify-content: space-between;
-    /* align-items: stretch; */
+    align-items: center;
     gap: 10%;
     padding-left: 5%;
     /* margin-top: -171px; */
     /* z-index: 1; */
     position: absolute;
     bottom: 0;
+    right: 0;
+    left: 0;
 }
+
+
+/* @media (max-width: 1500px) {
+    .head-foot {
+
+    }
+} */
 
 .head-nums {
     display: flex;
@@ -132,10 +141,13 @@ body {
 .head-blue-foot {
     display: flex;
     background: linear-gradient(97.73deg, #399FD8 -6.96%, #0775B4 23.5%, #003756 92.79%);
-    gap: 5%;
+    /* gap: 10%; */
+    justify-content: space-between;
     align-items: center;
     padding: 0% 3% 0% 3%;
 }
+
+/* @media */
 
 .head-foot-general {
     font-size: 18px;
@@ -164,7 +176,7 @@ body {
     font-weight: 700;
 }
 
-.years {}
+/* .years {} */
 
 .vec-1 {
     position: relative;
@@ -177,13 +189,40 @@ body {
     font-weight: 600;
 }
 
+.trusted-gen {
+    width: 40%;
+    background-color: red;
+}
+
 .house {
     position: absolute;
     /* z-index: 0; */
     right: 0;
     bottom: 0;
     width: 45%;
+    max-width: 550px;
     /* height: 0%; */
+}
+
+@media (max-width: 1500px) {
+    .black-back {
+        padding-bottom: 250px;    
+    }
+
+    .head-foot {
+        flex-wrap: wrap;
+        /* gap: 50%; */
+    }
+
+    .head-blue-foot {
+        width: 100%;
+        gap: auto;
+    }
+
+    .head-nums {
+        width: 40%;
+    }
+
 }
 
 .section-2 {
@@ -388,7 +427,6 @@ body {
 .how {
     display: flex;
     gap: 10px;
-    background-color: red;
     /* height: 50px;
     width: 140px; */
     align-items: center;
@@ -429,6 +467,20 @@ body {
 
 .another-building {
     width: 45%;
+}
+
+@media (max-width: 1000px){
+    .section-6 {
+    flex-wrap: wrap-reverse;
+    }
+
+    .s-6-text-div {
+        width: auto;
+    }
+
+    .another-building {
+        width: auto;
+    }
 }
 
 .section-7 {
@@ -488,8 +540,23 @@ body {
     padding: 5% 5% 5% 5%;
 }
 
+/* .s-8-pics {
+    display:;
+
+} */
+
 .builds {
     width: 23%;
+}
+
+@media (max-width: 800px){
+    .section-8 {
+            flex-wrap: wrap;
+        }
+
+    .builds {
+        width: 50%;
+    }
 }
 
 .section-10 {
@@ -499,6 +566,10 @@ body {
     background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);;
     box-shadow: 0px 10px 15px 0px #00000014;
     padding: 5%;
+    width: 80%;
+    position: relative;
+    left: 5%;
+    top: 300px;
 }
 
 .s-10-pics {
@@ -576,12 +647,89 @@ body {
     padding: 15px;
 }
 
+
+
+.man {
+    width: 100%;
+}
+
+@media (max-width: 900px){
+    .section-10 {
+        flex-wrap: wrap;
+        column-gap: 100px;
+        row-gap: 50px;
+        justify-content: start;
+    }
+
+    .s-10-pics{
+        width: 100%;
+    }
+
+    .man {
+        width: 40%;
+    }
+
+    .white-div {
+        /* width: 243px;
+        height: 151px; */
+        /* bottom: -60px;
+        right: -91.5px; */
+        width: 50%;
+        height: 95%;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        justify-content: center;
+    }
+
+    .molen-text {
+        width: 55%;
+    }
+
+    .s-10-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px){
+    .s-10-pics {
+            height: 220px;
+            /* padding: 20px; */
+            /* background-color: red; */
+        }
+
+
+        .man {
+            position: absolute;
+            bottom: 0;
+        }
+
+    .white-div {
+        /* bottom: -60px; */
+        /* right: -131.5px; */
+        border-radius: 0%;
+        height: 85%;
+    }
+
+    .molen {
+        /* margin-top: -35px;
+        margin-bottom: -10px; */
+    }
+
+    .molen-text {
+        width: 85%;
+        /* margin-top: -0px; */
+    }   
+}
+
 .footer {
     background: linear-gradient(168.84deg, #aaaaaa 4.14%, #222222 44.22%);
     box-shadow: 0px 10px 15px 0px #9797971F;
     color: white;
     display: flex;
-    gap: 10%;
+    gap: 5% 10%;
+    flex-wrap: wrap;
+    row-gap: 50px;
     padding: 350px 5% 5% 5%;
 }
 
@@ -634,13 +782,3 @@ body {
     line-height: 23.44px;
 }
 
-.section-10 {
-    width: 80%;
-    position: relative;
-    left: 5%;
-    top: 300px;
-}
-
-.man {
-    width: 100%;
-}

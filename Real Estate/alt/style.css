@@ -1,0 +1,159 @@
+body {
+    font-family: Poppins;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.black-back {
+    background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
+    position: relative;
+    padding-bottom: 150px;
+    /* z-index: -1; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5% 3% 5%;
+}
+
+.white-font {
+    color: white;
+}
+
+.gen {
+    padding-right: 6%;
+}
+
+.project {
+    color: #0A72AD;
+}
+
+.about {
+    padding-right: 3%;
+}
+
+.heading {
+    font-size: 64px;
+}
+
+.we-provide {
+    width: 50%;
+    padding: 3% 5% 3% 5%;
+    /* z-index: -1; */
+}
+
+.more-than-100 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.discover {
+    background: linear-gradient(97.65deg, #60BBEE 0.33%, #0A72AD 93.35%);
+    box-shadow : 0px 10px 15px 0px #01739933;
+    width: 196px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+
+.head-foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding-left: 5%;
+    /* margin-top: -171px; */
+    /* z-index: 1; */
+    position: absolute;
+    bottom: 0;
+}
+
+.head-nums {
+    display: flex;
+    gap: 15%;
+}
+
+.head-num {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.h-num {
+    display: flex;
+    margin-bottom: -16px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: -45px;
+}
+
+.head-plus {
+    color: #2387C0;
+}
+
+.head-blue-foot {
+    display: flex;
+    background: linear-gradient(97.73deg, #399FD8 -6.96%, #0775B4 23.5%, #003756 92.79%);       gap: 5%;
+    align-items: center;
+    padding: 0% 3% 0% 3%;
+}
+
+.head-foot-general {
+    font-size: 18px;
+    font-weight: 500;
+    /* line-height: 40px; */
+    /* padding-bottom: 10px; */
+    background-color: red;
+}
+
+.head-foot-project {
+    font-size: 24px;
+    font-weight: 600;
+    /* margin-bottom: 40px; */
+    /* line-height: 0px; */
+    background-color: red;
+}
+
+.flex {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    height: 60px;
+    margin-bottom: -25px;
+}
+
+.head-foot-25 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.years {
+}
+
+.vec-1 {
+    position: relative;
+    top: -15px;
+    right: 5px;
+}
+
+.head-foot-operated {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.house {
+    position: absolute;
+    /* z-index: 1; */
+    right: 0;
+    bottom: 0;
+    width: 45%;
+    /* height: 0%; */
+}
